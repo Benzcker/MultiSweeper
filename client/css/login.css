@@ -1,3 +1,30 @@
+:root {
+    --buttonColLight: #42bbe7;
+    --buttonCol: #009ED8;
+    --buttonColDark: #009ED8CC;
+    --buttonCol2: #FE5F55;
+    --buttonCol3: #139675;
+}
+
 #login {
     height: 100vh;
+}
+
+#loginName, 
+#loginBtn {
+    margin-top: 35vh;
+    font-size: 1em;
+    height: 2em;
+    border: none;
+}
+#loginName {
+    background: var(--buttonColLight);
+}
+#loginBtn {
+    background: var(--buttonCol);
+    color: var(--textColor);
+    cursor: pointer;
+}
+#loginBtn:hover {
+    background: var(--buttonColDark);
 }
